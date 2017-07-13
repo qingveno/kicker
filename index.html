@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>ming commands</title>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+  	<div class="container">
+    	<section class="hero">
+        	<h1 class="title" style="text-align:center;">Ming Commands Guide</h1>			
+        	<p>
+            	<strong>This is a WIP so things might change</strong><br>
+        		The bot prefix is <code>--</code> (two dashes),<br>
+        		Required arguments are in <code>[square brackets]</code>,<br>
+        		Optional arguments are in <code>{curly brackets}</code>.
+           	</p>
+        	<p>
+				<strong>Example:</strong>
+				<code>--command subcommand</code>
+        	</p>
+        	<hr>
+        	<h2 class="subtitle">Commands</h2>
+        	<table class="table is-narrow">
+                <tr>
+                    <td><p><code>friend</code> <code>friendreq</code></p></td>
+                    <td><p><span style="font-size: 12px; color: rgba(102,102,102,1)"><strong>in-game only</strong></span> The bot sends you a friend request, it wont it's already in your friend list.</p></td>
+                </tr><tr>
+					<td><p><code>countdown</code> <code>cd</code></p></td>
+					<td><p><span style="font-size: 12px; color: rgba(102,102,102,1)"><strong>in-game only</strong></span></p></td>
+                </tr><tr>
+					<td><p><code>discord</code></p></td>
+					<td><p>Generates the discord invite link.</p></td>
+                </tr><tr>
+					<td><p><code>mmstats {region}</code></p></td>
+					<td><p>Shows the number of people searching in the given region. See regions below</p></td>
+                </tr><tr>
+					<td><p><code>notes</code></p></td>
+					<td><p>Displays a pinned message left by an admin.</p></td>
+                </tr><tr>
+					<td><p><code>admins</code></p></td>
+					<td><p>Shows you the admin list.</p></td>
+                </tr><tr>
+					<td><p><code>stats</code></p></td>
+					<td><p><em>not implemented yet</em></p></td>
+                </tr><tr>
+					<td><p><code>restart</code></p></td>
+					<td><p><span style="font-size: 12px; color: rgba(102,102,102,1)"><strong>admin channel only</strong></span></p></td>
+                </tr><tr>
+                    <td><p><code>admin [command] [argument]</code></p></td>
+                    <td><p>Admin specific commands, for subcommands and arguments see below</p></td>
+                </tr>
+            </table>
+        <hr>
+        <h2 class="subtitle">Regions</h2>
+        <p>
+			Usage of the mmstats command is <code>--mmstats {region}</code><br>
+			Generally you omit region and it will bring up default matchmaking regions.<br>
+			However, if you wish to view all regions, write <strong>all</strong> as region: <code>--mmstats all</code>
+			<br><br>
+        </p>
+		<table id="regions" class="table is-narrow">
+			<tr>
+				<td>US West</td>
+				<td>US East</td>
+				<td>EU West</td>
+				
+			</tr><tr>
+                <td>EU East</td>
+				<td>Russia</td>
+				<td>SEA</td>				
+			</tr><tr>
+                <td>Japan</td>
+                <td>Australia</td>
+				<td>India</td>
+			</tr><tr>
+            	<td>Dubai</td>
+				<td>South Africa</td>
+				<td>Brazil</td>
+            </tr><tr>
+                <td>Chile</td>
+                <td>Peru</td>
+                <td><em>all</em></td>
+            </tr>
+		</table>
+        <hr>
+        <h2 class="subtitle">Admin</h2>
+        </section>
+    </div>
+  </body>
+</html>

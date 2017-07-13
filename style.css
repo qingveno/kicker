@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	background-color: rgba(255,204,204,1);
+	margin: 5px;
+}
+
+hr {
+	background-color: rgba(51,51,51,1);	
+}
+.container {
+	background-color: #fff !important;
+	border-radius:10px;
+}
+.hero {
+	border-radius:10px;
+	background: linear-gradient(to right, rgba(101, 0, 229, 0.20), rgba(0, 255, 187, 0.10)); /* Standard syntax */
+	padding: 20px;
+}
+
+code {
+	background-color: rgba(255,255,255,0.85);	
+}
+
+.table {
+    background-color: rgba(255,255,255,0.2);
+	border: rgba(51,255,102,1);
+}
+
+table tr {
+	border: rgba(51,255,102,1);
+}
+.table tr:hover td{
+    background-color: rgba(255,0,255,0.1);
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#regions td{
+	text-align:center;	
+}
