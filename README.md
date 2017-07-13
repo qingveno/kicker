@@ -1,0 +1,5 @@
+
+# kicker
+no
+cmds : 
+kick
